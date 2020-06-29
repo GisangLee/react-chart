@@ -48,6 +48,11 @@ export function Grid() {
       grade: 4.0,
       hakjeom: 4.0,
     },
+    {
+      major: "전산개론",
+      grade: 2.2,
+      hakjeom: 4.0,
+    },
   ];
   return (
     <>
@@ -77,7 +82,7 @@ export function Grid() {
         </GradeContainer__header>
         <GradeContainer__gradeHeader>
           <div>
-            <span>과목명</span>
+            <h2>과목명</h2>
           </div>
           <div>
             <span>학점</span>
